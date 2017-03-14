@@ -1,0 +1,100 @@
+package:
+  name: utillib
+  version: "0.1.1.dev74"
+
+source:
+  fn: utillib-0.1.1.dev74.tar.gz
+  url: https://pypi.python.org/packages/4e/59/934b0a74c25274361c7d5c75e93343b8e8c9f14818015b078b48d0c9748b/utillib-0.1.1.dev74.tar.gz
+  md5: 640f6465b5f30628276d139ff568b835
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  # noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - utillib = utillib:main
+    #
+    # Would create an entry point called utillib that calls utillib.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - setuptools
+    - setuptools_scm
+    - python
+    - numpy
+    - scipy >=0.19
+    - netcdf4
+    - h5py
+    - scikit-sparse >=0.4.1
+    - petsc4py
+    - cachetools
+    - blist
+    - colorlog
+    - matplotlib
+
+  run:
+    - python
+    - numpy
+    - scipy >=0.19
+    - netcdf4
+    - h5py
+    - scikit-sparse >=0.4.1
+    - petsc4py
+    - cachetools
+    - blist
+    - colorlog
+    - matplotlib
+
+test:
+  # Python imports
+  imports:
+    - util
+    - util.batch
+    - util.batch.general
+    - util.batch.nec
+    - util.batch.rz
+    - util.batch.universal
+    - util.cache
+    - util.index_database
+    - util.io
+    - util.io.filelock
+    - util.io.matrix
+    - util.math
+    - util.math.optimize
+    - util.math.sparse
+    - util.math.sparse.decompose
+    - util.observable
+    - util.parallel
+    - util.petsc
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/jor-/util
+  license: GNU General Public License v3 or later (GPLv3+)
+  summary: 'util functions'
+  license_family: GPL3
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
