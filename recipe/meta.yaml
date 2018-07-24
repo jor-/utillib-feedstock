@@ -19,23 +19,17 @@ requirements:
         - python
         - numpy
         - scipy >=0.19
-        - netcdf4
         - h5py
-        - petsc4py
         - cachetools
         - blist
-        - colorlog
         - matplotlib
     run:
         - python
         - numpy
         - scipy >=0.19
-        - netcdf4
         - h5py
-        - petsc4py
         - cachetools
         - blist
-        - colorlog
         - matplotlib
 
 about:
