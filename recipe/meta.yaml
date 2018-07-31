@@ -17,7 +17,7 @@ requirements:
     host:
         - python >=3.2
         - setuptools >=0.8
-        - numpy
+        - numpy >=1.15
         - scipy >=0.19
         - h5py
         - cachetools
@@ -25,7 +25,7 @@ requirements:
         - matplotlib
     run:
         - python >=3.2
-        - numpy
+        - numpy >=1.15
         - scipy >=0.19
         - h5py
         - cachetools
