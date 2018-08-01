@@ -15,7 +15,7 @@ build:
 
 requirements:
     host:
-        - python >=3.2
+        - python >=3.6
         - setuptools >=0.8
         - numpy >=1.15
         - scipy >=0.19
@@ -24,7 +24,7 @@ requirements:
         - blist
         - matplotlib
     run:
-        - python >=3.2
+        - python >=3.6
         - numpy >=1.15
         - scipy >=0.19
         - h5py
