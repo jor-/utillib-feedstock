@@ -24,6 +24,7 @@ requirements:
         - cachetools
         - blist
         - matplotlib
+        - time
     run:
         - python >=3.6
         - numpy >=1.15
@@ -32,6 +33,7 @@ requirements:
         - cachetools
         - blist
         - matplotlib
+        - time
 
 about:
     home: {{ DATA.get('url') }}
