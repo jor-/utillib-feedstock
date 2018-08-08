@@ -24,6 +24,7 @@ requirements:
         - cachetools
         - blist
         - matplotlib
+        - pycairo
         - time
     run:
         - python >=3.6
@@ -33,6 +34,7 @@ requirements:
         - cachetools
         - blist
         - matplotlib
+        - pycairo
         - time
 
 about:
