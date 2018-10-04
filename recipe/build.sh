@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$PYTHON setup.py install 
+PIP_NO_CACHE_DIR=True $PYTHON -m pip install --no-deps .
 
 # Add more build steps here, if they are necessary.
 
