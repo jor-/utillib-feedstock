@@ -26,6 +26,7 @@ requirements:
         - matplotlib
         - pycairo
         - time
+        - overrides
     run:
         - python >=3.6
         - numpy >=1.15
@@ -36,6 +37,7 @@ requirements:
         - matplotlib
         - pycairo
         - time
+        - overrides
 
 about:
     home: {{ DATA.get('url') }}
