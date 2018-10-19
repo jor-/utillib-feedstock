@@ -23,7 +23,7 @@ requirements:
         - h5py
         - cachetools
         - blist
-        - matplotlib
+        - matplotlib >=3
         - pycairo
         - time
         - overrides
@@ -34,7 +34,7 @@ requirements:
         - h5py
         - cachetools
         - blist
-        - matplotlib
+        - matplotlib >=3
         - pycairo
         - time
         - overrides
