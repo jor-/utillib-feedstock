@@ -21,7 +21,7 @@ requirements:
         - numpy >=1.15
         - scipy >=0.19
         - h5py
-        - cachetools
+        - cachetools >=2, <3
         - blist
         - matplotlib >=3
         - pycairo
@@ -32,7 +32,7 @@ requirements:
         - numpy >=1.15
         - scipy >=0.19
         - h5py
-        - cachetools
+        - cachetools >=2, <3
         - blist
         - matplotlib >=3
         - pycairo
