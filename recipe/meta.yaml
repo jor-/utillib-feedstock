@@ -14,19 +14,12 @@ build:
     noarch: python
 
 requirements:
+    build:
+        - git
     host:
+        - python >=3.6
         - setuptools >=0.8
         - pip >=10
-        - python >=3.6
-        - numpy >=1.15
-        - scipy >=0.19
-        - h5py
-        - cachetools >=2, <3
-        - blist
-        - matplotlib >=3
-        - pycairo
-        - time
-        - overrides
     run:
         - python >=3.6
         - numpy >=1.15
