@@ -36,6 +36,7 @@ about:
     home: {{ DATA.get('url') }}
     summary: {{ DATA.get('description') }}
     license: {{ DATA.get('license') }}
+    license_family: {{ DATA.get('license') }}
     license_file: LICENSE.txt
 
 extra:
